@@ -16,13 +16,9 @@
             <!-- Collect the nav links, forms, and other content for toggling -->
             <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
                 <ul class="nav navbar-nav">
-									<li><a href="<?php echo site_url('main') ?>">Guide</a></li>
-									<li class="drop-down">
-										<a href="#" class="dropdown-toggle" data-toggle="dropdown">abcdfaf</a>
-										<ul class="dropdown-menu">
-											<li><a>fgdfgf</a></li>
-										</ul>
-									</li>
+									<li><a href="<?php echo site_url('user/register') ?>">Register</a></li>
+									<li><a href="<?php echo site_url('user/login') ?>">Log in</a></li>
+									<li><a href="<?php echo base_url().'medicines/show_medicines' ?>">Available medicines</a></li>
                 </ul>
             </div>
             <!-- /.navbar-collapse -->
