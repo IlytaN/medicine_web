@@ -59,7 +59,6 @@
             </div>
             <div class="panel-footer text-center">
               <p><a href="<?php echo base_url() ?>"> Don't Have an Account? REGISTER</a></p>
-              <h5><a href="http://codesquery.com">Click Here for more tutorials</a></h5>
             </div>
           </div>
         </div>
