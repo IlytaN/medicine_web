@@ -47,7 +47,7 @@
                                     <label class="control-label" for="fname">Last Name</label>
                                         <div >
                                             <input type="text" class="form-control" id="lname" name="lname" placeholder="Last Name" required="">
-                                            <span class="text-danger"><?php echo form_error('lame'); ?></span>
+                                            <span class="text-danger"><?php echo form_error('lname'); ?></span>
                                         </div>
                                 </div>
                   </div>
@@ -85,7 +85,7 @@
               </form>
             </div>
             <div class="panel-footer text-center">
-              <h5><a href="http://codesquery.com">Click Here for more tutorials</a></h5>
+              <h5><a href="http://codesquery.com"></a></h5>
             </div>
           </div>
         </div>

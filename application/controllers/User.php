@@ -7,6 +7,7 @@ class User extends CI_Controller {
         $this->load->library(array('session', 'form_validation', 'email'));
         $this->load->database();
         $this->load->model('user_model');
+        $this->load->model('Medicines_model');
     }
   public function register()
   {
@@ -42,6 +43,8 @@ class User extends CI_Controller {
               'email' => $email,
               'password' => $passhash,
               'status' => $status);
+      $this->user_model->insertuser($data);
+      $this->load->view('login');
         }
   }
 
@@ -65,8 +68,10 @@ class User extends CI_Controller {
             if(!empty($res))
             {
                     $data['user'] = $res[0]['fname'];
+                    $data['id'] = $res[0]['id'];
                     $this->setSession($res[0]['id'],$res[0]['fname']);
                     $this->load->view('profile', $data);
+
             }
             else
             {
