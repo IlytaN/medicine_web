@@ -14,8 +14,28 @@
       margin: 5% auto;
     }
   </style>
+  
 </head>
 <body>
+	 <nav class="navbar navbar-inverse" role="navigation">
+        <div class="container">
+            <!-- Brand and toggle get grouped for better mobile display -->
+            <div class="navbar-header">
+                <a class="navbar-brand">Medicine web</a>
+            </div>
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                <ul class="nav navbar-nav">
+                                     <li><a href="<?php echo site_url('main/index') ?>"> <li><a href="<?php echo site_url('main/index') ?>"><span class="glyphicon glyphicon-home"></span> Home</a></li>Home</a></li>
+									<li><a href="<?php echo site_url('user/register') ?>">Register</a></li>
+									<li><a href="<?php echo site_url('user/login') ?>">Log in</a></li>
+									<li><a href="<?php echo base_url().'medicines/show_medicines' ?>">Available medicines</a></li>
+                </ul>
+            </div>
+            <!-- /.navbar-collapse -->
+        </div>
+        <!-- /.container -->
+    </nav>
   <div class="wrapper">
     <div class="container">
       <div class="row">
@@ -33,7 +53,7 @@
               <form action="<?php echo base_url() ;?>index.php/user/check_login" method="post">
 
                 <div class="form-group">
-                                <label class="control-label" for="pswd">Email</label>
+                                <label class="control-label" for="pswd"><span class="glyphicon glyphicon-envelope"></span>Email </label>
                                     <div>
                                         <input type="email" class="form-control" id="email" name="email" placeholder="Email" required="">
                                         <span class="text-danger"><?php echo form_error('email'); ?></span>
@@ -41,7 +61,7 @@
                             </div>
 
                             <div class="form-group">
-                                <label class="control-label" for="pswd">Password</label>
+                                <label class="control-label" for="pswd"><span class="glyphicon glyphicon-lock"></span>Password</label>
                                     <div>
                                         <input type="password" class="form-control" id="pswd" name="password" placeholder="Password" required="">
                                         <span class="text-danger"><?php echo form_error('password'); ?></span>
