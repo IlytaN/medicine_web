@@ -53,7 +53,7 @@
               <form action="<?php echo base_url() ;?>index.php/user/check_login" method="post">
 
                 <div class="form-group">
-                                <label class="control-label" for="pswd">Email</label>
+                                <label class="control-label" for="pswd"><span class="glyphicon glyphicon-envelope"></span>Email </label>
                                     <div>
                                         <input type="email" class="form-control" id="email" name="email" placeholder="Email" required="">
                                         <span class="text-danger"><?php echo form_error('email'); ?></span>
@@ -61,7 +61,7 @@
                             </div>
 
                             <div class="form-group">
-                                <label class="control-label" for="pswd">Password</label>
+                                <label class="control-label" for="pswd"><span class="glyphicon glyphicon-lock"></span>Password</label>
                                     <div>
                                         <input type="password" class="form-control" id="pswd" name="password" placeholder="Password" required="">
                                         <span class="text-danger"><?php echo form_error('password'); ?></span>
