@@ -21,7 +21,9 @@ class Medicines extends CI_Controller {
 	public function show_list() {
 		$this->load->model('Medicines_model');
 		$data['medicines']=$this->Medicines_model->getList($this->session->userdata('userId'));
-		$data['loggedUser']=$this->Medicines_model->getUserData($this->session->userdata('userId'));
+		if (!empty($_SESSION)) {
+			$data['loggedUser']=$this->Medicines_model->getUserData($this->session->userdata('userId'));
+		}
 		$data['page']='medicines/list';
 		$this->load->view('menu/content',$data);
 	}
