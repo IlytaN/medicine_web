@@ -1,4 +1,4 @@
-<!-- below is testing codes, please delete or ignore them-->
+<!-- show all medicines-->
 <TABLE class="table table-bordered">
   <TR>
     <TH>id</TH>

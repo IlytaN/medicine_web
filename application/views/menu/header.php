@@ -25,6 +25,7 @@
 												?>">Log in/out
 											</a>
 									</li>
+									<li><a href="<?php echo site_url().'/medicines/show_list' ?>">My page</a></li>
 									<li><a href="<?php echo site_url().'/medicines/show_medicines' ?>">Available medicines</a></li>
                 </ul>
             </div>

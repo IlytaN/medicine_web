@@ -42,7 +42,8 @@ class User extends CI_Controller {
               'lname' => $lname,
               'email' => $email,
               'password' => $passhash,
-              'status' => $status);
+              'status' => $status,
+              'description' => '');
       $this->user_model->insertuser($data);
       $this->load->view('login');
         }
@@ -71,7 +72,6 @@ class User extends CI_Controller {
                     $data['id'] = $res[0]['id'];
                     $this->setSession($res[0]['id'],$res[0]['fname']);
                     $this->load->view('profile', $data);
-
             }
             else
             {
