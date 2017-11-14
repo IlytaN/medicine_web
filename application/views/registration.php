@@ -63,16 +63,7 @@
                   </div>
                   <div class="col-sm-6">
                     <div class="form-group">
-                                    <label class="control-label" for="fname">Last Name</label>
-                                        <div >
-                                            <input type="text" class="form-control" id="lname" name="lname" placeholder="Last Name" required="">
-                                            <span class="text-danger"><?php echo form_error('lname'); ?></span>
-                                        </div>
-                                </div>
-                  </div>
-                </div>
-                <div class="form-group">
-                                <label class="control-label" for="pswd">Email</label>
+                                <label class="control-label" for="pswd"><span class="glyphicon glyphicon-envelope"></span>Email</label>
                                     <div>
                                         <input type="email" class="form-control" id="email" name="email" placeholder="Email" required="">
                                         <span class="text-danger"><?php echo form_error('email'); ?></span>
@@ -80,7 +71,7 @@
                             </div>
 
                             <div class="form-group">
-                                <label class="control-label" for="pswd">Password</label>
+                                <label class="control-label" for="pswd"><span class="glyphicon glyphicon-lock"></span>Password</label>
                                     <div>
                                         <input type="password" class="form-control" id="pswd" name="password" placeholder="Password" required="">
                                         <span class="text-danger"><?php echo form_error('password'); ?></span>
