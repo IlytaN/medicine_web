@@ -29,7 +29,7 @@
       echo '<tr><td>'.$row['id'].'</td>';
       echo '<td>'.$row['m_id'].'</td>';
       echo '<td>'.$row['name'].'</td>';
-      echo '<td>'.$row['img'].'</td>';
+      echo '<td><img class="img-thumbnail" style="max-width:200px" src="'.$row['img'].'"></td>';
       echo '<td>'.$row['description'].'</td>';
       echo '<td><button class="btn btn-success"><a href="'.site_url('medicines/delete_medicine').'/'.
   		$row['id'].'">Delete</a></button></td></tr>';
