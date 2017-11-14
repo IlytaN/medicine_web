@@ -14,7 +14,10 @@
       margin: 5% auto;
     }
   </style>
-   <nav class="navbar navbar-inverse" role="navigation">
+  
+</head>
+<body>
+	 <nav class="navbar navbar-inverse" role="navigation">
         <div class="container">
             <!-- Brand and toggle get grouped for better mobile display -->
             <div class="navbar-header">
@@ -33,8 +36,6 @@
         </div>
         <!-- /.container -->
     </nav>
-</head>
-<body>
   <div class="wrapper">
     <div class="container">
       <div class="row">
