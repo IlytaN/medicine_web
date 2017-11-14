@@ -25,7 +25,7 @@
             <!-- Collect the nav links, forms, and other content for toggling -->
             <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
                 <ul class="nav navbar-nav">
-                                     <li><a href="<?php echo site_url('main/index') ?>">Home</a></li>
+                                     <li><a href="<?php echo site_url('main/index') ?>"><li><a href="<?php echo site_url('main/index') ?>"><span class="glyphicon glyphicon-home"></span> Home</a></li> Home</a></li>
 									<li><a href="<?php echo site_url('user/register') ?>">Register</a></li>
 									<li><a href="<?php echo site_url('user/login') ?>">Log in</a></li>
 									<li><a href="<?php echo base_url().'medicines/show_medicines' ?>">Available medicines</a></li>
