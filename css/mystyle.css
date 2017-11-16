@@ -13,11 +13,11 @@
 }
 
 div.c-wrapper{
-    width: 80%; 
+    width: 80%;
     margin: auto;
 }
 
-.carousel-inner > .item > img, 
+.carousel-inner > .item > img,
 .carousel-inner > .item > a > img{
 margin: auto;
 }
@@ -74,5 +74,3 @@ margin: auto;
 {
     margin-bottom: 0px;
 }
-
-
