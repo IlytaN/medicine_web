@@ -1,6 +1,4 @@
 <!-- show all medicines-->
-<link rel="stylesheet" type="text/css" href="css/mystyle.css">
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
   <div class="form">
     <form action="<?php echo base_url() ;?>index.php/medicines/search" method="post">
         <input type="text" name="drug" placeholder="Search for a medicine..">
