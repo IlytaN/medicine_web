@@ -28,7 +28,7 @@
               <div class="alert alert-success">
                 Successfully Login
               </div>
-              <h1> Welcome <?php echo $id ?> </h1>
+              <h1> Welcome <?php echo $user ?> </h1>
             </div>
             <div class="panel-footer text-center">
               <a href="<?php echo base_url(); ?>index.php/">Go to Homepage</a>
