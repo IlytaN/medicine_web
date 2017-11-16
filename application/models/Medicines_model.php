@@ -46,4 +46,10 @@ Class Medicines_model extends CI_model {
 			return true;
 		else return false;
 	}
+	// search medicine
+	public function searchDrug($drug){
+		$this->db->like('name',$drug);
+    $query  =   $this->db->get('medicines');
+    return $query->result_array();
+	}
 }

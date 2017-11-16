@@ -14,7 +14,7 @@
       margin: 5% auto;
     }
   </style>
-  
+
 </head>
 <body>
 	 <nav class="navbar navbar-inverse" role="navigation">
@@ -26,7 +26,7 @@
             <!-- Collect the nav links, forms, and other content for toggling -->
             <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
                 <ul class="nav navbar-nav">
-                                     <li><a href="<?php echo site_url('main/index') ?>"><span class="glyphicon glyphicon-home"></span> Home</a></li>
+                  <li><a href="<?php echo site_url('main/index') ?>"><span class="glyphicon glyphicon-home"></span> Home</a></li>
 									<li><a href="<?php echo site_url('user/register') ?>">Register</a></li>
 									<li><a href="<?php
 												if (!empty($sess_id))
@@ -86,9 +86,9 @@
               </form>
             </div>
             <div class="panel-footer text-center">
-                
+
               <p><a href="<?php echo base_url() ?>"> Don't Have an Account? REGISTER</a></p>
-              
+
             </div>
           </div>
         </div>

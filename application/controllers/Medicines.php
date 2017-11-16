@@ -58,4 +58,14 @@ class Medicines extends CI_Controller {
 				$this->Medicines_model->updateUserDescription($u_id,$desc);
 				$this->show_list();
 	}
+
+	// search function
+	public function search()
+	{
+				$drug=$_POST['drug'];
+				$this->load->model('Medicines_model');
+				$data['results']=$this->Medicines_model->searchDrug($drug);
+				$data['page']='medicines/search_result';
+				$this->load->view('menu/content',$data);
+	}
 }
