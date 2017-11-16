@@ -11,3 +11,6 @@
 ## Suggested account info to test:
 #### email: testuser@mydit.ie
 #### password: password
+### Acknowledgement:
+##### For CodeIgniter register and sign in functions http://codesquery.com/create-registration-form-codeigniter/
+##### Some other sources: https://stackoverflow.com/ https://www.codeigniter.com/user_guide/ 
