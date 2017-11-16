@@ -1,8 +1,16 @@
 <!-- show all medicines-->
   <div class="form">
     <form action="<?php echo base_url() ;?>index.php/medicines/search" method="post">
-        <input type="text" name="drug" placeholder="Search for a medicine..">
-        <button type="submit" class="btn btn-basic">Search</button>
+        <div class="form-group">
+            <div class="row">
+              <div class="col-sm-9">
+                <input type="text" name="drug" placeholder="Search for a medicine..">
+              </div>
+              <div class="row">
+                <button type="submit" class="btn btn-basic offset-md-1  btn-submit">Search</button>
+              </div>
+            </div>
+        </div>
     </form>
   </div>
 
