@@ -1,1 +1,78 @@
+.form, input {
+    width: 50%;
+    box-sizing: border-box;
+    border-radius: 4px;
+    font-size: 16px;
+    padding: 12px 20px 12px 40px;
+    -webkit-transition: width 0.4s ease-in-out;
+    transition: width 0.4s ease-in-out;
+}
+
+.form, input[type=text]:focus {
+    width: 100%;
+}
+
+div.c-wrapper{
+    width: 80%; 
+    margin: auto;
+}
+
+.carousel-inner > .item > img, 
+.carousel-inner > .item > a > img{
+margin: auto;
+}
+
+.p {
+    font-family: monospace;
+}
+
+#map-container { height: 300px }
+
+.medfont {
+    font-family: monospace;
+}
+.jquery {
+    background-blend-mode: color ;
+    height:100px;
+    width:75%;
+    position:absolute;
+}
+
+.glyphicon.glyphicon-arrow-down {
+    font-size: 40px;
+}
+
+
+
+.glyphicon { margin-right:5px; }
+.thumbnail
+{
+    margin-bottom: 20px;
+    padding: 0px;
+    -webkit-border-radius: 0px;
+    -moz-border-radius: 0px;
+    border-radius: 0px;
+}
+
+.item.list-group-item
+{
+    float: none;
+    width: 100%;
+    background-color: #fff;
+    margin-bottom: 10px;
+}
+.item.list-group-item:nth-of-type(odd):hover,.item.list-group-item:hover
+{
+    background: #428bca;
+}
+
+.item.list-group-item .list-group-image
+{
+    margin-right: 10px;
+}
+.item.list-group-item .thumbnail
+{
+    margin-bottom: 0px;
+}
+
 
